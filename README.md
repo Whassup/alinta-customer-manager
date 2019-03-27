@@ -1,4 +1,47 @@
+# Introduction
+
+This project is a solution to a technical test for Alinta.
+
+## Requirements
+
+See provide brief [Alinta Coding Test (FE).pdf](./docs/Alinta%20Coding%20Test%20(FE).pdf).
+
+Create a application where;
+* User can see list of customers.
+* User can search a list of customers by first or last name.
+* User can can add a customer.
+* User can can edit a customer.
+* User can can delete a customer.
+
+## Scope
+
+This scope of this implementation will be limited to;
+
+* Frontend only implementation. No backend or API implementation required. The API will be replicated by a static stub.
+* No routing will be included to simplify solution.
+
+## Build Plan
+
+I have put together a build plan which details roughly how I planned to structure the development and each of the feature branches. See [build plan](./docs/BUILD_PLAN.md).
+
+## Notes, Considerations & Potential Improvements
+
+* 
+
+# How to run this project
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Installation
+
+Run `npm install.`
+
+Installation issues
+There appears to be some issues with the create-react-script tooling when running `npm install` with newer versions of node see https://github.com/facebook/create-react-app/issues/2613. The install may report some errors and warnings for specific packages not being installed.
+
+To mitigate an issue with the lib `fsevents` not being installed in those cases I have included this library as dev dependency so that `npm run test` will function when running this project on OSX.
+
+
 
 ## Available Scripts
 
