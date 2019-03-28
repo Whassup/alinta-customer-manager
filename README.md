@@ -18,7 +18,6 @@ Create a application where;
 This scope of this implementation will be limited to;
 
 * Frontend only implementation. No backend or API implementation required. The API will be replicated by a static stub.
-* No routing will be included to simplify solution.
 
 ## Build Plan
 
