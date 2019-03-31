@@ -108,13 +108,13 @@ Update `NewCustomerView`
 mapStateToProps;
 * find in  `state.customers` any full name matches in `props.state.customer` and map result to `customerNameInUse`
 
-
+update `save()` to if `customerNameInUse === true` display error message else dispatch `CreateCustomer`
 
 ## 4. User can can edit a customer.
 
-* Create `EditCustomerView` component to for handling editing new customers
+**4.1** Create redux action `UpdateCustomer`
 
-* Create redux action `UpdateCustomer`
+**4.2** Create `EditCustomerView` component to for handling editing new customers
 
 ## 5. User can can delete a customer.
 
